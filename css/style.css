@@ -99,7 +99,7 @@ form h2 {
 form fieldset {
     background-color: var(--primary);
     border: 0;
-    box-shadow: 1px 5px 7px rgb(206, 206, 206);
+    box-shadow: 1px 3px 7px rgb(206, 206, 206);
     display: flex;
     flex-wrap: wrap;
     gap: 2rem;
@@ -119,26 +119,31 @@ form label {
 }
 
 form input {
-    border: 1px;
+    border: 1px solid var(--border);
     border-radius: 4px;
     border-style: solid;
     font-size: 1.2rem;
     height: 2rem;
+    margin-right: 4rem;
     padding: 0.5rem;
     width: 20rem;
 }
 
-form input:blank {
-    border-color: var(--border);
-}
-
-form input:focus {
+form input:focus,
+form input:placeholder-shown:focus {
     border-color: var(--focus);
     box-shadow: 1px 4px 5px rgb(206, 206, 206);
+    outline: none;
 }
 
 form input:invalid {
     border-color: var(--invalid);
+}
+
+form input[type="number"]::-webkit-inner-spin-button,
+form input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    appearance: none;
 }
 
 form footer {
