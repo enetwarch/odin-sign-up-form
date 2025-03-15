@@ -1,6 +1,6 @@
 # [Sign Up Form](https://enetwarch.github.io/odin-sign-up-form/)
 
-This is an assignment project provided by [The Odin Project](https://www.theodinproject.com/). It is found under the foundations section of the curriculum. This is a replica of the provided resources listed below.
+This is an assignment project provided by [The Odin Project](https://www.theodinproject.com/). It is found under the Intermediate HTML and CSS section of the Full Stack JavaScript curriculum. This is a replica of the provided resources listed below.
 
 > [!WARNING]
 > At this point of the curriculum, there is no need for media queries or mobile responsiveness yet.
